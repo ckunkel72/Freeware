@@ -13,7 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>\\SERVER\Firma\Code\Release\Internet\Windows Tools\HashChecker\</PublishUrl>
+    <PublishUrl>\\SERVER\Firma\Code\Release\CKM\Windows Tools\HashChecker\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,14 +23,14 @@
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://code.c-k-m.info/HashChecker/</InstallUrl>
-    <UpdateUrl>http://code.c-k-m.info/HashChecker/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/ckunkel72/Freeware/master/HashChecker/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/ckunkel72/Freeware/master/HashChecker/publish/</UpdateUrl>
     <ProductName>Hash-Checker</ProductName>
     <PublisherName>CKM Christian Kunkel</PublisherName>
     <SuiteName>Windows Tools</SuiteName>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationRevision>18</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -75,7 +75,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>83ABDACC30F7457D88AC90DB8AE79FE5AE369F03</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>C111B4F5056D8F41919F9C51529B2225E436099D</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>
@@ -88,7 +88,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
+    <ManifestTimestampUrl>http://timestamp.comodoca.com/authenticode</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
